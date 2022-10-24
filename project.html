@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Adventure</title>
+  <link rel="stylesheet" href="assets/index.2330fb5c.css">
+  <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+  <script>
+    function shownav() {
+      document.getElementById("sidebarnav").style.display = "block";
+      document.getElementById("ham").style.display = "none";
+      document.getElementById("cross").style.display = "block";
+    }
+    function hidenav() {
+      document.getElementById("sidebarnav").style.display = "none";
+      document.getElementById("ham").style.display = "block";
+      document.getElementById("cross").style.display = "none";
+    }
+    
+  </script>
+</head>
+
+<body>
+  <div class="nav flex p-7 md:hidden justify-between">
+    <img class="h-7 " src="assets/logo@2x.png" alt="">
+    <div class="menu h-10 w-10 bg-red-500  justify-items-center flex items-center  justify-center">
+      <img class=" h-5" src="assets/icons8-menu-24.png" alt="" id="ham" onclick="shownav()">
+      <img class=" h-5 hidden " src="assets/icons8-close-24.png" alt="" id="cross" onclick="hidenav()">
+    </div>
+  </div>
+  <div class="allfeature  hidden md:hidden" id="sidebarnav">
+    <hr>
+   <a href="index.html"><p class="font-semibold pt-2 pb-2 pl-6 text-base cursor-pointer">Home</p></a>
+    <hr>
+   <a href="about.html"><p class="font-semibold pt-2 pb-2 pl-6 text-base cursor-pointer">About</p></a>
+    <hr>
+   <a href="service.html"> <p class="font-semibold pt-2 pb-2 pl-6 text-base cursor-pointer">Service</p></a>
+    <hr>
+    <a href="project.html"><p class="font-semibold pt-2 pb-2 pl-6 text-base cursor-pointer">Projects</p></a>
+    <hr>
+    <a href="contact.html"><p class="font-semibold pt-2 pb-2 pl-6 text-base cursor-pointer">Contact</p></a>
+    <hr>
+</div>
+  <div style="background-image:linear-gradient(to bottom, rgba(7, 7, 7, 0.459), rgba(10, 9, 9, 0.479)),
+ url('assets/project-background.jpg');" class="header  md:h-[85vh] bg-center bg-cover h-[35vh] w-full  bg-no-repeat ">
+    <div class="nav1 md:flex hidden pt-6  justify-between">
+      <img class="h-11 pl-20" src="assets/white-logo@2x.png" alt="">
+      <div class="allcato flex space-x-10 pr-40 items-center">
+        <a href="index.html"> <p class="font-medium text-white text-xl cursor-pointer">Home</p></a>
+        <a href="about.html"> <p class="font-medium text-white text-xl cursor-pointer">About</p></a>
+       <a href="service.html">  <p class="font-medium text-white text-xl cursor-pointer">Service</p></a>
+       <a href="project.html"> <p class="font-medium text-white text-xl cursor-pointer">Projects</p></a>
+       <a href="contact.html">  <p class="font-medium text-white text-xl cursor-pointer">Contact</p></a>
+         <button class="h-14 w-44 bg-red-500 text-white rounded-3xl">
+             <p class="font-medium">TAKE ACTION</p>
+         </button>
+     </div>
+    </div>
+    <div class="title flex flex-col  text-center md:mt-40 items-center pt-24">
+      <h1 class="md:text-7xl font-bold text-white text-4xl">OUR PROJECTS</h1>
+
+    </div>
+  </div>
+  <div class="container">
+    <div class="text pt-20 p-2 md:pl-20 flex items-center pl-5">
+      <p class="text-2xl font-bold md:text-xl pr-5">Adventure
+      </p>
+      <div class="line h-1 w-20 bg-red-500 mt-2"></div>
+    </div>
+    <p class="text-4xl font-bold md:text-6xl pr-5 md:pl-20 mt-5 md:pt-5 pl-5">WATER SPORTS
+  
+    </p>
+    <p class="md:pl-20 pt-5 md:text-xl text-gray-400 p-5">Interdum exercitation penatibus, praesentium facilisi accusamus fermentum, sagittis.  </p>
+    <div class="imag md:hidden flex justify-center p-3"><img src="assets/water-sports-04-pw3ewxlotwvxexslc701s0mk4fvtadyvdkj2xpc9w8.jpg"
+              class="rounded-lg" alt=""></div>
+              <div class="dots flex justify-center space-x-3 md:hidden">
+                <div class="dot h-3 w-3 rounded-full bg-red-500"></div>
+                <div class="dot h-3 w-3 rounded-full bg-red-200"></div>
+                <div class="dot h-3 w-3 rounded-full bg-red-200"></div>
+                <div class="dot h-3 w-3 rounded-full bg-red-200"></div>
+              </div>
+    <div class="slides  md:w-[100%]   md:p-20 w-[100%]  p-2 md:block hidden">
+  
+      <div class="swiper mySwiper">
+  
+        <div class="swiper-wrapper">
+  
+          <div class="swiper-slide"><img src="assets/water-sports-04-pw3ewxlotwvxexslc701s0mk4fvtadyvdkj2xpc9w8.jpg"
+              class="rounded-lg" alt=""></div>
+          <div class="swiper-slide"><img src="assets/boat.jpg" class="rounded-lg" alt=""></div>
+          <div class="swiper-slide"><img src="assets/boat1.jpg" class="rounded-lg" alt=""></div>
+          <div class="swiper-slide"><img src="assets/water-sports-03-pw3ewwnun2un3btyholf7iv3j20g2ov51fvlgfdo2g.jpg"
+              class="rounded-lg" alt=""></div>
+  
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+  
+    </div>
+  </div>
+  <div class="container">
+    <div class="text pt-20 p-2 md:pl-20 flex items-center pl-5">
+      <p class="text-2xl font-bold md:text-xl pr-5">Snow Adventure
+
+      </p>
+      <div class="line h-1 w-20 bg-red-500 mt-2"></div>
+    </div>
+    <p class="text-4xl font-bold md:text-6xl pr-5 md:pl-20 mt-5 md:pt-5 pl-5">WINTER SPORTS
+    </p>
+    <p class="md:pl-20 pt-5 md:text-xl text-gray-400 p-5">Interdum exercitation penatibus, praesentium facilisi accusamus fermentum, sagittis.  </p>
+    <div class="imag md:hidden flex justify-center p-3"><img src="assets/winter-sports-1.jpg"
+              class="rounded-lg" alt=""></div>
+              <div class="dots flex justify-center space-x-3 md:hidden">
+                <div class="dot h-3 w-3 rounded-full bg-red-500"></div>
+                <div class="dot h-3 w-3 rounded-full bg-red-200"></div>
+                <div class="dot h-3 w-3 rounded-full bg-red-200"></div>
+                <div class="dot h-3 w-3 rounded-full bg-red-200"></div>
+              </div>
+    <div class="slides  md:w-[100%]   md:p-20 w-[100%]  p-2 md:block hidden">
+  
+      <div class="swiper mySwiper">
+  
+        <div class="swiper-wrapper">
+  
+          <div class="swiper-slide"><img src="assets/winter-sports-1.jpg"
+              class="rounded-lg" alt=""></div>
+          <div class="swiper-slide"><img src="assets/winter-sports-02.jpg" class="rounded-lg" alt=""></div>
+          <div class="swiper-slide"><img src="assets/winter-sports-03.jpg" class="rounded-lg" alt=""></div>
+          <div class="swiper-slide"><img src="assets/winter-sports-04.jpg"
+              class="rounded-lg" alt=""></div>
+  
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+  
+    </div>
+  </div>
+  <div class="container">
+    <div class="text pt-20 p-2 md:pl-20 flex items-center pl-5">
+      <p class="text-2xl font-bold md:text-xl pr-5">Forest Tours
+      </p>
+      <div class="line h-1 w-20 bg-red-500 mt-2"></div>
+    </div>
+    <p class="text-4xl font-bold md:text-6xl pr-5 md:pl-20 mt-5 md:pt-5 pl-5">CAMPING
+    </p>
+    <p class="md:pl-20 pt-5 md:text-xl text-gray-400 p-5">Interdum exercitation penatibus, praesentium facilisi accusamus fermentum, sagittis.  </p>
+    <div class="imag md:hidden flex justify-center p-3"><img src="assets/camp-1.jpg"
+              class="rounded-lg" alt=""></div>
+              <div class="dots flex justify-center space-x-3 md:hidden">
+                <div class="dot h-3 w-3 rounded-full bg-red-500"></div>
+                <div class="dot h-3 w-3 rounded-full bg-red-200"></div>
+                <div class="dot h-3 w-3 rounded-full bg-red-200"></div>
+                <div class="dot h-3 w-3 rounded-full bg-red-200"></div>
+              </div>
+    <div class="slides  md:w-[100%]   md:p-20 w-[100%]  p-2 md:block hidden">
+  
+      <div class="swiper mySwiper">
+  
+        <div class="swiper-wrapper">
+  
+          <div class="swiper-slide"><img src="assets/camp-1.jpg"
+              class="rounded-lg" alt=""></div>
+          <div class="swiper-slide"><img src="assets/camp-2.jpg" class="rounded-lg" alt=""></div>
+          <div class="swiper-slide"><img src="assets/camp-3.jpg" class="rounded-lg" alt=""></div>
+          <div class="swiper-slide"><img src="assets/camp-4.jpg"
+              class="rounded-lg" alt=""></div>
+  
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+  
+    </div>
+  </div>
+  <div class="footer w-full h-60 md:mt-36 mt-20 bg-black flex flex-col pt-20 md:font-semibold md:text-xl text-center">
+    <p class="text-white">Bidur-3,Nuwakot,Nepal | Phone: 9828900311 | Email: yunishpandit98@gmail.com</p>
+    <p class="text-white pt-5">Copyright © 2022 adventure</p>
+ </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      slidesPerGroup: 3,
+
+      loop: true,
+
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+
+    });
+
+  </script>
+ 
+</body>
+
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure- Service</title>
+    <link rel="stylesheet" href="assets/index.2330fb5c.css">
+    <script>
+        function shownav() {
+            document.getElementById("sidebarnav").style.display = "block";
+            document.getElementById("ham").style.display = "none";
+            document.getElementById("cross").style.display = "block";
+        }
+        function hidenav() {
+            document.getElementById("sidebarnav").style.display = "none";
+            document.getElementById("ham").style.display = "block";
+            document.getElementById("cross").style.display = "none";
+        }
+
+    </script>
+</head>
+<body>
+    <div class="nav flex p-7 md:hidden justify-between">
+        <img class="h-7 " src="assets/logo@2x.png" alt="">
+        <div class="menu h-10 w-10 bg-red-500  justify-items-center flex items-center  justify-center">
+            <img class=" h-5" src="assets/icons8-menu-24.png" alt="" id="ham" onclick="shownav()">
+            <img class=" h-5 hidden " src="assets/icons8-close-24.png" alt="" id="cross" onclick="hidenav()">
+        </div>
+    </div>
+    <div class="allfeature  hidden md:hidden" id="sidebarnav">
+        <hr>
+       <a href="index.html"><p class="font-semibold pt-2 pb-2 pl-6 text-base cursor-pointer">Home</p></a>
+        <hr>
+       <a href="about.html"><p class="font-semibold pt-2 pb-2 pl-6 text-base cursor-pointer">About</p></a>
+        <hr>
+       <a href="service.html"> <p class="font-semibold pt-2 pb-2 pl-6 text-base cursor-pointer">Service</p></a>
+        <hr>
+        <a href="project.html"><p class="font-semibold pt-2 pb-2 pl-6 text-base cursor-pointer">Projects</p></a>
+        <hr>
+        <a href="contact.html"><p class="font-semibold pt-2 pb-2 pl-6 text-base cursor-pointer">Contact</p></a>
+        <hr>
+    </div>
+    <div style="background-image:linear-gradient(to bottom, rgba(7, 7, 7, 0.459), rgba(10, 9, 9, 0.479)),
+ url('assets/services-bg.jpg');"
+        class="header  md:h-[85vh] bg-center bg-cover h-[35vh] w-full  bg-no-repeat ">
+        <div class="nav1 md:flex hidden pt-6  justify-between">
+            <img class="h-11 pl-20" src="assets/white-logo@2x.png" alt="">
+            <div class="allcato flex space-x-10 pr-40 items-center">
+              <a href="index.html"> <p class="font-medium text-white text-xl cursor-pointer">Home</p></a>
+              <a href="about.html"> <p class="font-medium text-white text-xl cursor-pointer">About</p></a>
+             <a href="service.html">  <p class="font-medium text-white text-xl cursor-pointer">Service</p></a>
+             <a href="project.html"> <p class="font-medium text-white text-xl cursor-pointer">Projects</p></a>
+             <a href="contact.html">  <p class="font-medium text-white text-xl cursor-pointer">Contact</p></a>
+               <button class="h-14 w-44 bg-red-500 text-white rounded-3xl">
+                   <p class="font-medium">TAKE ACTION</p>
+               </button>
+           </div>
+          </div>
+        <div class="title flex flex-col  text-center md:mt-40 items-center pt-24">
+            <h1 class="md:text-7xl font-bold text-white text-4xl">SERVICES</h1>
+            
+        </div>
+    </div>
+    <div class="texts ">
+        <div class="upcoming pt-14 md:pt-20  items-center text-center flex flex-col justify-center ">
+            <p class="text-2xl font-bold md:text-4xl">IT'S TIME TO START YOUR ADVENTURES
+            </p>
+            <div class="line h-1 w-20 bg-red-500 mt-5 "></div>
+        </div>
+        <div class="text text-center p-6 md:pl-[26%] ">
+            <p class="text-sm md:text-xl text-center md:pr-[26%]">Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus ullamcorpe pulvinar.</p>
+            
+        </div>
+    </div>
+    <div class="events md:flex items-center justify-center">
+        <div class="event1 flex flex-col items-center text-center md:w-[45%]  p-5">
+            <div class="profile flex flex-col items-center md:mt-20 ">
+                <div class="cont md:h-[24.5rem] h-[40%] bg-gray-300 rounded-md">
+                    <img class=" md:h-96 rounded-md relative right-3 bottom-1" src="assets/outdoor-image-03.jpg" alt="">
+                </div>
+
+
+            </div>
+            <p class="font-bold text-2xl pt-6">Backpacking Trip</p>
+            <p class=" md:w-[90%] md:text-xl">Fuerat aestu carentem habentia spectent tonitrua mutastis locavit liberioris
+                inistra possedit.</p>
+           
+
+        </div>
+
+        <div class="event2 flex flex-col items-center text-center md:w-[45%]  p-5">
+            <div class="profile flex flex-col items-center mt-10 md:mt-20 ">
+                <div class="cont md:h-[24.5rem] h-[40%] bg-gray-300 rounded-md">
+                    <img class=" md:h-96  rounded-md  relative right-3 bottom-2" src="assets/services-2.jpg" alt="">
+                </div>
+
+
+            </div>
+            <p class="font-bold text-2xl pt-6">Family Hiking Trips   </p>
+            <p class=" md:w-[90%] md:text-xl">Fuerat aestu carentem habentia spectent tonitrua mutastis locavit liberioris
+                inistra possedit.</p>
+            
+
+        </div>
+
+    </div>
+    <div class="events md:flex items-center justify-center">
+        <div class="event1 flex flex-col items-center text-center md:w-[45%]  p-5">
+            <div class="profile flex flex-col items-center md:mt-20 ">
+                <div class="cont md:h-[24.5rem] h-[40%] bg-gray-300 rounded-md">
+                    <img class=" md:h-96 rounded-md relative right-3 bottom-1" src="assets/services-3.jpg" alt="">
+                </div>
+
+
+            </div>
+            <p class="font-bold text-2xl pt-6">Water Sports</p>
+            <p class=" md:w-[90%] md:text-xl">Fuerat aestu carentem habentia spectent tonitrua mutastis locavit liberioris
+                inistra possedit.</p>
+           
+
+        </div>
+
+        <div class="event2 flex flex-col items-center text-center md:w-[45%]  p-5">
+            <div class="profile flex flex-col items-center mt-10 md:mt-20 ">
+                <div class="cont md:h-[24.5rem] h-[40%] bg-gray-300 rounded-md">
+                    <img class=" md:h-96  rounded-md  relative right-3 bottom-2" src="assets/outdoor-image-01.jpg" alt="">
+                </div>
+
+
+            </div>
+            <p class="font-bold text-2xl pt-6">Winter Sports </p>
+            <p class="  md:w-[90%] md:text-xl">Fuerat aestu carentem habentia spectent tonitrua mutastis locavit liberioris
+                inistra possedit.</p>
+            
+
+        </div>
+
+    </div>
+    <div class="texts md:flex">
+        <div class="core">
+            <div class="upcoming pt-5 md:pt-20 md:pl-32 items-center text-center flex flex-col justify-center md:items-start">
+                <p class="text-2xl font-bold md:text-4xl">Why Outdoor Adventure                </p>
+                <div class="line h-1 w-20 bg-red-500 mt-5 "></div>
+            </div>
+            <div class="text text-center p-8 md:pl-32 md:text-start md:w-[90%]">
+                <p class="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                <div class="lines pt-5 space-y-4">
+                    <div class="line1 flex items-center space-x-6">
+                        <div class="line h-1 w-4 bg-red-500  "></div>
+                        <p class="text-xl">Experience: Locavit liberioris possedit</p>
+                    </div>
+                    <div class="line1 flex items-center space-x-6">
+                        <div class="line h-1 w-4 bg-red-500 "></div>
+                        <p class="text-xl">Reputation: Diremit mundi mare undae</p>
+                    </div>
+                    <div class="line1 flex items-center space-x-6">
+                        <div class="line h-1 w-4 bg-red-500 "></div>
+                        <p class="text-xl">Guide Experience: Spectent tonitrua mutastis                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="core">
+            <div class="upcoming pt-5 md:pt-20 md:pl-32 items-center text-center flex flex-col justify-center md:items-start">
+                <p class="text-2xl font-bold md:text-4xl">What You Get </p>
+                <div class="line h-1 w-20 bg-red-500 mt-5 "></div>
+            </div>
+            <div class="text text-center p-8 md:pl-32 md:text-start md:w-[90%]">
+                <p class="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                <div class="lines pt-5 space-y-4">
+                    <div class="line1 flex items-center space-x-6">
+                        <div class="line h-1 w-4 bg-red-500  "></div>
+                        <p class="text-xl">Private Hike: Locavit liberioris possedit</p>
+                    </div>
+                    <div class="line1 flex items-center space-x-6">
+                        <div class="line h-1 w-4 bg-red-500 "></div>
+                        <p class="text-xl">Transportation: Diremit mundi mare undae</p>
+                    </div>
+                    <div class="line1 flex items-center space-x-6">
+                        <div class="line h-1 w-4 bg-red-500 "></div>
+                        <p class="text-xl">Great Facilities: Spectent tonitrua mutastis</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer w-full h-60 md:mt-36 mt-20 bg-black flex flex-col pt-20 md:font-semibold md:text-xl text-center">
+        <p class="text-white">Bidur-3,Nuwakot,Nepal | Phone: 9828900311 | Email: yunishpandit98@gmail.com</p>
+        <p class="text-white pt-5">Copyright © 2022 adventure</p>
+     </div>
+</body>
+</html>

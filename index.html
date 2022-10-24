@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure</title>
+    
+    <script>
+        function shownav() {
+            document.getElementById("sidebarnav").style.display = "block";
+            document.getElementById("ham").style.display = "none";
+            document.getElementById("cross").style.display = "block";
+        }
+        function hidenav() {
+            document.getElementById("sidebarnav").style.display = "none";
+            document.getElementById("ham").style.display = "block";
+            document.getElementById("cross").style.display = "none";
+        }
+
+    </script>
+  <link rel="stylesheet" href="assets/index.2330fb5c.css">
+</head>
+
+<body>
+    <div class="nav flex p-7 md:hidden justify-between">
+        <img class="h-7 " src="data:image/png;base64,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" alt="">
+        <div class="menu h-10 w-10 bg-red-500  justify-items-center flex items-center  justify-center">
+            <img class=" h-5" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAMUlEQVRIie3SoREAIADDwJT9dy6KCUAAl1dVVQF9L2u07dHjJADj5KnuZEXaZ0V6wATQzQwKQvoBVgAAAABJRU5ErkJggg==" alt="" id="ham" onclick="shownav()">
+            <img class=" h-5 hidden " src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAkUlEQVRIie2VwQ2AIBAE1R40WiKWKw/LGR+SaIzi7SE/90XC7Y7CAU3zSxUQgMHhG4DwVjSzKyqQFB6Td84V9sCSCldgMoRfPaNqeITI4QrEHW6BFIfnIJ+FnyDnDomXsdzOlj+Rvrwr4LYF3kNVl+huQz2H0RyemdMgllZ0Q5Q+lyGeQyRBqH1dp+J6D86vO23cMwceYU71pwAAAABJRU5ErkJggg==" alt="" id="cross" onclick="hidenav()">
+        </div>
+    </div>
+    <div class="allfeature  hidden md:hidden" id="sidebarnav">
+        <hr>
+       <a href="index.html"> <p class="font-semibold pt-2 pb-2 pl-6 text-base cursor-pointer">Home</p></a>
+        <hr>
+      <a href="about.html">  <p class="font-semibold pt-2 pb-2 pl-6 text-base cursor-pointer">About</p></a>
+        <hr>
+       <a href="service.html"> <p class="font-semibold pt-2 pb-2 pl-6 text-base cursor-pointer">Service</p></a>
+        <hr>
+       <a href="project.html"> <p class="font-semibold pt-2 pb-2 pl-6 text-base cursor-pointer">Projects</p></a>
+        <hr>
+       <a href="contact.html"> <p class="font-semibold pt-2 pb-2 pl-6 text-base cursor-pointer">Contact</p></a>
+        <hr>
+    </div>
+    <div style="background-image:linear-gradient(to bottom, rgba(7, 7, 7, 0.459), rgba(10, 9, 9, 0.479)),
+ url('assets/background.00e83eec.jpg');"
+        class="header  md:h-[100vh] md:bg-fixed bg-center bg-cover h-[45vh] w-full  bg-no-repeat ">
+        <div class="nav1 md:flex hidden pt-6  justify-between">
+            <img class="h-11 pl-20" src="data:image/png;base64,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" alt="">
+            <div class="allcato flex space-x-10 pr-40 items-center">
+               <a href="index.html"> <p class="font-medium text-white text-xl cursor-pointer">Home</p></a>
+               <a href="about.html"> <p class="font-medium text-white text-xl cursor-pointer">About</p></a>
+               <a href="service.html"> <p class="font-medium text-white text-xl cursor-pointer">Service</p></a>
+               <a href="project.html"><p class="font-medium text-white text-xl cursor-pointer">Projects</p></a> 
+               <a href="contact.html"> <p class="font-medium text-white text-xl cursor-pointer">Contact</p></a>
+                <button class="h-14 w-44 bg-red-500 text-white rounded-3xl">
+                    <p class="font-medium">TAKE ACTION</p>
+                </button>
+            </div>
+        </div>
+        <div class="title flex flex-col  text-center md:mt-56 items-center pt-24">
+            <h1 class="md:text-2xl font-bold text-white text-xl">Explore the Colourful World</h1>
+            <div class="line h-1 w-16 bg-red-500 mt-5 "></div>
+
+            <h1 class="md:text-7xl text-4xl font-semibold text-white md:pt-6 pt-1">A WONDERFUL GIFT</h1>
+            <button class="md:h-14 h-12 w-44 mt-16 bg-red-500 text-white rounded-3xl">
+                <p class="font-semibold">LEARN MORE</p>
+            </button>
+        </div>
+    </div>
+    <div
+        class="quote md:flex md:flex-row md:p-20 pt-8 md:items-center   md:space-x-32 items-center flex flex-col text-center">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAACOUlEQVRoge2XP2/TQBiHn9dpoiIi3NIAUSWGDIgVdcrUhQ+QoQsqCDHyPWDiE7CxFQmpA0MrIcSCGJiZkECqhBB/Gqe5S4sCSuKXIQXcJiU4tsG09yxRcq/ueX++nO0Dh8NxIpA4xU1jllBpiMgyaBW4CJyuzPmx5snCMzNpUlWVHWtXFLkLXB5G19SaTsvz2yDGmFrLdtZA6vs/9UV5oqIvQpFXnrIxdecpe44Mst3eXe4RrgtUQLuqck+Lhfvny+VPP2oCYxOHSMszNsh2e3fZk/ApUBL0eQFuzc37W4m7ztAzEsQYU+sRrgMlhUdt3795SeTb4QYKoquaYK+k7TkQRFWlZTtrw2XmWcU/s3pOZBCRz/dFHqBhI8l2z8LjRb/sWLsC1BE+lDy5JpHJt1Rn+8gmSgPkvQrXZ9Cz09x6M/WoqgTGvg6M1aYxtw+PB217JzBWA2Pfft7buxC3+b/maRqztD/BO1UtRsc6nc5CYGw3MHbQsrZ+1Bz/0vPrr6XSGH7yWER60aLeQG8AswgbC77/cuoUGXp+Bhm+DoDnsTni9rg6dPMwfucHycoT2ey6CNCHNyNVyhWAomqy1cjQE71rLQKE3e7HMfIKQNv3x4zFJhNPNEgZoFqtfhktk1MANZGvcQVjyMTjTS75P5j4Gh8lMPaPH+hJzijTeE7WisS5unGuZpqeY7MiLkjecEHyhguSN1yQvOGC5A0XJG+4IHlj5DyS5DwRh7Q9x2ZFHA6Hw+FwAN8B0zWLSf4HthUAAAAASUVORK5CYII=" class="h-32" alt="">
+        <div class="quote1 items-center text-center ">
+            <p class="text-2xl p-4">"Let's move into the new adventure with different experience and also having fun."
+            </p>
+            <p class="text-2xl">-Yunish pandit</p>
+        </div>
+    </div>
+    <div class="upcoming pt-28 items-center text-center flex flex-col justify-center">
+        <p class="text-2xl font-bold md:text-4xl">UPCOMING EVENTS</p>
+        <div class="line h-1 w-20 bg-red-500 mt-5 "></div>
+    </div>
+    <div class="events md:flex items-center justify-center">
+        <div class="event1 flex flex-col items-center text-center">
+            <div class="profile flex flex-col items-center mt-20 p-4">
+                <div class="cont md:h-[24.5rem] h-[40%] bg-gray-300 rounded-md">
+                    <img class=" md:h-96 h-40% rounded-md relative right-3 bottom-1" src="assets/hiking-v1.5a3568a9.jpg" alt="">
+                </div>
+
+
+            </div>
+            <p class="font-bold text-2xl">Everest Camp Trek</p>
+            <p class="p-7 md:w-[80%]">Fuerat aestu carentem habentia spectent tonitrua mutastis locavit liberioris
+                inistra possedit.</p>
+            <button class="md:h-14 h-12 w-52 mt-3 bg-red-500 text-white rounded-2xl">
+                <p class="font-semibold">LEARN MORE</p>
+            </button>
+
+        </div>
+
+        <div class="event2 flex flex-col items-center text-center">
+            <div class="profile flex flex-col items-center mt-10 md:mt-20 p-4">
+                <div class="cont md:h-[24.5rem] h-[40%] bg-gray-300 rounded-md">
+                    <img class=" md:h-96 h-40% rounded-md  relative right-3 bottom-2" src="assets/walking-v1.7db07499.jpg" alt="">
+                </div>
+
+
+            </div>
+            <p class="font-bold text-2xl">Walking Holidays</p>
+            <p class="p-7  md:w-[80%]">Fuerat aestu carentem habentia spectent tonitrua mutastis locavit liberioris
+                inistra possedit.</p>
+            <button class="md:h-14 h-12 w-52 mt-3 bg-red-500 text-white rounded-2xl">
+                <p class="font-semibold">LEARN MORE</p>
+            </button>
+
+        </div>
+
+    </div>
+    <div style="background-image:linear-gradient(to bottom, rgba(7, 7, 7, 0.459), rgba(10, 9, 9, 0.479)),
+ url('assets/section-bg-img.aa1a7c80.jpg');"
+        class="header mt-40  md:h-[80vh] md:bg-fixed bg-center bg-cover h-[60vh] w-full  bg-no-repeat ">
+        <div class="explore flex flex-col md:justify-center  md:items-center md:pl-[40%]  pt-12 md:text-center ">
+            <div
+                class="upcoming md:pt-28  md:text-start md:pl-0 md:pr-8  items-center text-center flex flex-col justify-center">
+                <p class="text-2xl font-bold md:text-4xl text-white ">EXPLORE THE WORLD</p>
+                <div class="line h-1 w-20 bg-red-500 mt-5 "></div>
+                <p class="text-white md:w-[70%] text-xl w-[90%] pt-4">Diremit mundi mare undae nunc mixtam tanto sibi.
+                    Nubes unda concordi. Fert his. Recessit mentes praecipites locum caligine sui egens erat. Silvas
+                    caeli regna.</p>
+                <button class="md:h-14 h-12 w-52 mt-10 bg-red-500 text-white rounded-2xl">
+                    <p class="font-semibold">LEARN MORE</p>
+                </button>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="upcomingtousirst">
+        <div
+            class="upcoming pt-28  items-center text-center flex flex-col justify-center md:flex md:flex-row md:justify-start md:items-start">
+            <div class="content flex flex-col justify-center items-center md:w-[33%] md:items-start md:pl-32">
+                <p class="text-2xl font-bold md:text-5xl w-80 md:text-start ">UPCOMING TOURS & DESTINATION</p>
+                <div class="line h-1 w-20 bg-red-500 mt-5 "></div>
+                <p class="p-5 md:text-start md:pl-0 md:text-xl">Fuerat aestu carentem habentia spectent tonitrua mutastis locavit liberioris. Sinistra
+                    possedit litora ut nabataeaque. Setucant coepyterunt perveniunt animal! Concordi aurea nabataeaque
+                    seductaque constaque cepit sublime flexi nullus.</p>
+                <button class="md:h-14 h-12 w-52 mt-10 md:mt-20 bg-red-500 text-white rounded-3xl">
+                    <p class="font-semibold">LEARN MORE</p>
+                </button>
+            </div>
+            <div class="images  md:flex md:w-[55%] ">
+                  <div class="image1 md:w-[50%] ">
+                <img class="p-2 pt-14 md:pt-0 rounded-xl" src="assets/outdoor-image-01.8270ba8e.jpg" alt="">
+                <img class="p-2 w-full rounded-xl" src="assets/image-1.99007423.jpg" alt="">
+            </div>
+            <div class="image2 md:w-[50%]">
+                <img class="p-2 w-full rounded-xl" src="assets/snow-1.a0b22ceb.jpg" alt="">
+                <img class="p-2 w-full rounded-xl" src="assets/outdoor-image-04.97eefb74.jpg" alt="">
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer w-full h-60 md:mt-36 mt-20 bg-black flex flex-col pt-20 md:font-semibold md:text-xl text-center">
+       <p class="text-white">Bidur-3,Nuwakot,Nepal | Phone: 9828900311 | Email: yunishpandit98@gmail.com</p>
+       <p class="text-white pt-5">Copyright © 2022 adventure</p>
+    </div>
+</body>
+
+</html>
